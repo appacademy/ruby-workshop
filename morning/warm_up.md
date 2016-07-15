@@ -29,7 +29,7 @@ test_string = "hello world"
 arr = [1, 2, 3, 4, 5]
 ```
 
-  If you do not know how to a method, check out the documentation.
+  If you do not know how to use a method, check out the documentation.
 
 [Ruby String documentation](http://ruby-doc.org/core-2.2.0/String.html)
 
