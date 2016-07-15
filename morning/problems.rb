@@ -1,15 +1,10 @@
-# Problem Set 1 - 20 problems
-
 # Load this file in irb with
     # load './problems_1.rb'
-
-# In irb, you can test your code with different inputs are see if the return values are valid.
+# In irb, you can test your code with different inputs are see if the return values are valid. Any time you change your code, you have to reload the file
 
 # If you'd like to grade your problems, exit pry and run:
   # ruby grade_problems.rb
-
 # You'll see 'true' for every correct problem and 'false' for every incorrect problems
-
 
 # *********** Strings *********************************
 
