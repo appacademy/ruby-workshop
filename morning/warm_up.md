@@ -20,7 +20,7 @@ Download the github repo and save it on your desktop.
   * Type `name.upcase.reverse`.
   * Type `name`. What is its value?
   * Type `name = name.reverse`.   Now what is the value of `name` ?  
-
+`
 ### 4) Using methods
   Play around with these methods to see how they work. Store values in variables as you go.
 
@@ -33,34 +33,34 @@ arr = [1, 2, 3, 4, 5]
 
 [Ruby String documentation](http://ruby-doc.org/core-2.2.0/String.html)
 
-String#upcase  
-String#downcase  
-String#length  
-String#reverse  
-String#+  
-String#<<  
-String#chars  
-String#index
+* `String#upcase`  
+* `String#downcase`  
+* `String#length`  
+* `String#reverse`  
+* `String#+`  
+* `String#<<`  
+* `String#chars`  
+* `String#index`
 
 [Ruby Fixnum documentation](http://ruby-doc.org/core-2.2.0/Fixnum.html)
 
-Fixnum#+  
-Fixnum#*  
-Fixnum#/  
-Fixnum#-  
-Fixnum#%
+* `Fixnum#+`  
+* `Fixnum#*`  
+* `Fixnum#/`  
+* `Fixnum#-`  
+* `Fixnum#%`
 
 [Ruby Array documentation](http://ruby-doc.org/core-2.2.0/Array.html)
 
-Array#length  
-Array#first  
-Array#last  
-Array#max  
-Array#min  
-Array#push  
-Array#pop  
-Array#unshift  
-Array#shift  
-Array#join  
-Array#index  
-Array#concat
+* `Array#length`  
+* `Array#first`  
+* `Array#last`  
+* `Array#max`  
+* `Array#min`  
+* `Array#push`  
+* `Array#pop`  
+* `Array#unshift`  
+* `Array#shift`  
+* `Array#join`  
+* `Array#index`  
+* `Array#concat`
