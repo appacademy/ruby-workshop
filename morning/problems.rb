@@ -1,24 +1,22 @@
 # Load this file in irb with
-    # load './problems_1.rb'
+    # load './problems.rb'
 # In irb, you can test your code with different inputs are see if the return values are valid. Any time you change your code, you have to reload the file
 
-# If you'd like to grade your problems, exit pry and run:
+# If you'd like to grade your problems, exit irb by typing 'exit', and then run:
   # ruby grade_problems.rb
-# You'll see 'true' for every correct problem and 'false' for every incorrect problems
+# You'll see 'true' for every correct problem and 'false' for every incorrect problem.
 
 # *********** Strings *********************************
 
 # Write a method which takes in a name and says hello.
 # Ex: greet("Leen") => "Hello, Leen"
 def greet(name)
-
 end
 
 # Write a method which takes in a name and yells hello/
 # Ex: excited_greet("Leen") => "HELLO LEEN!!!"
-"Try using ruby interpolation like #{1 + 2}" # <- what happens when I copy into pry?
+"Try using ruby interpolation like #{1 + 2}" # <- what happens when I copy into irb?
 def excited_greet(name)
-
 end
 
 # Write a method which capitalizes a word
@@ -129,7 +127,7 @@ end
 # *********** Arrays *********************************
 
 # Add the first element and the last element of the array
-# Ex: first_plus_last([3, 8, 2, 4]) => 7s
+# Ex: first_plus_last([3, 8, 2, 4]) => 7
 def first_plus_last(arr)
 
 end
