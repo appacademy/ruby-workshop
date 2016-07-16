@@ -6,3 +6,8 @@
 
 ## Afternoon
 
+* [Problems](./afternoon/problems.rb)
+* [Grading Script](./morning/grade_problems.rb)
+* [Learn more](http://prepwork.appacademy.io/coding-test-1/practice-problems/)
+
+
