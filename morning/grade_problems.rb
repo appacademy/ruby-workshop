@@ -126,7 +126,6 @@ puts
 puts '---------anagrams?----------'
 puts anagrams?('coats', 'tacos') == true
 puts anagrams?('steak', 'tacos') == false
-puts anagrams?('halleys comet', 'shall yet come') == true
 puts
 
 
@@ -144,6 +143,6 @@ puts
 
 puts '---------ord----------'
 puts ord(3) == 13
-puts ord(6) == 21
+puts ord(10) == 25
 puts ord(32) == 72
 puts
