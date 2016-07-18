@@ -1,4 +1,4 @@
-require_relative './problems.rb'
+require_relative './afternoon.rb'
 
 puts "********* Iteration  ***********\n "
 
@@ -8,6 +8,27 @@ puts sum_to(3) == 6
 puts sum_to(1) == 1
 puts sum_to(0) == 0
 
+puts "------------------Sum Between--------------------"
+puts sum_between(5, 10) == 45
+
+puts "------------------Range--------------------"
+puts range(6, 10) == [6, 7, 8, 9, 10]
+
+puts "------------------Is prime--------------------"
+puts is_prime?(1) == false
+puts is_prime?(2) == true
+puts is_prime?(13) == true
+puts is_prime?(51) == false
+
+
+puts "------------------N primes--------------------"
+puts n_primes(4) == [2, 3, 5, 7]
+puts n_primes(8) == [2, 3, 5, 7, 11, 13, 17, 19]
+
+puts "------------------FizzBuzz--------------------"
+puts fizz_buzz(5) == [1, 2, "fizz", 4, "buzz"]
+puts fizz_buzz(15) == [1, 2, "fizz", 4, "buzz", "fizz", 7, 8,
+  "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz"]
 
 puts "********* Iteration through Arrays *********** \n"
 
@@ -53,7 +74,7 @@ puts "------------------Has multiples of three--------------------"
 puts has_multiple_of_three?([1,2,4,5,7,8]) == false
 puts has_multiple_of_three?([1,2,4,5,6,7,12]) == true
 
-puts "********* Hashes *********** "
+puts "********* Hashes ***********\n "
 puts
 
 puts "----------------------Word lengths------------------------"
@@ -64,8 +85,8 @@ puts word_lengths('This is a sentence') == {
   'sentence' => 8
 }
 
-puts "----------------------uniq------------------------"
-puts uniq([1, 5, 2, 1, 2, 3]) == [1, 5, 2, 3]
+puts "----------------------uniques------------------------"
+puts uniques([1, 5, 2, 1, 2, 3]) == [1, 5, 2, 3]
 
 puts "------------------Evens and odds--------------------"
 puts evens_and_odds([]) == {'even' => 0, 'odd' => 0}
@@ -75,13 +96,12 @@ puts "------------------Count Initials--------------------"
 dubs = ["Steph", "Harrison", "Klay", "Andrew", "Andre", "Draymond", "Shaun"]
 puts count_initials(dubs) == { "S" => 2, "H" => 1, "K" => 1, "D" => 1, "A" => 2 }
 
-puts "------------------Count vowels--------------------"
-puts count_vowels("cat dog elephant monkey") == 8
-puts count_vowels("abcdefghijklmnopqrstuvwxyz") == 6
+puts "------------------Greatest Val Key--------------------"
+puts greatest_val_key({'a' => 3, 'b' => 2 , 'c' => 5}) == 'c'
 
-puts "------------------Longest word--------------------"
-puts longest_word("we the people in order to form a more perfect union establish justice ensure domestic tranquility") == "tranquility"
-puts longest_word("one two three four five six seven") == "three"
+puts "------------------Most common vowel--------------------"
+puts most_common_vowel("we the people in order to form a more perfect union establish justice ensure domestic tranquility") == "e"
+puts most_common_vowel("cat dog octopus spider") == "o"
 
 puts "************ Bonus *******************\n"
 
@@ -99,10 +119,3 @@ puts "------------------Magic numbers--------------------"
 puts magic_numbers(1) == [7]
 puts magic_numbers(3) == [7, 16, 25]
 puts magic_numbers(20) == [7, 16, 25, 34, 43, 52, 61, 70, 106, 115, 124, 133, 142, 151, 160, 205, 214, 223, 232, 241]
-
-puts "------------------Greatest Val Key--------------------"
-puts greatest_val_key({'a' => 3, 'b' => 2 , 'c' => 5}) == 'c'
-
-puts "------------------Most common vowel--------------------"
-puts most_common_vowel("we the people in order to form a more perfect union establish justice ensure domestic tranquility") == "e"
-puts most_common_vowel("cat dog octopus spider") == "o"
