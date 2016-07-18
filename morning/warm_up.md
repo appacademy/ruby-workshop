@@ -1,7 +1,7 @@
 ### 1) Terminal
 Download the github repo and save it on your desktop.
   * Navigate to the Desktop: `cd ~/Desktop`
-  * Navigate to your project folder: `cd ruby-workshop`
+  * Navigate to your project folder: `cd ruby-workshop-master`
   * Open up this folder with atom: `atom .`
   * Navigate to the morning folder: `cd morning`
 
