@@ -85,8 +85,6 @@ def has_multiple_of_three?(numbers)
 
 end
 
-
-
 # ***************HASHES******************************
 
 # Write a method called word_lengths(string) that given a sentence, returns a hash of each of the words and their lengths.
@@ -97,7 +95,7 @@ def word_lengths(sentence)
 end
 
 # Write a method called uniq(array) that returns an array with only the unique values in the array. Use a hash!
-def uniq(array)
+def uniques(array)
 
 end
 
@@ -111,15 +109,16 @@ def count_initials(names)
 
 end
 
-# Write a method that takes a string and counts the number of vowels in the string.  For our purposes, "y" counts as a vowel. Assume all letters will be lower case
-# Hint: You might want to use the Array#include? method for this.
-def count_vowels(string)
+# Write a method called greatest_val_key(hash) that takes in a hash with any keys but only integers for values, and returns the key with the largest value.
+# Ex: greatest_val_key({ "a" => 5, "b" => 6, "c" => 3 }) => "b"
+# Hint: Can you iterate through Hash#keys?
+def greatest_val_key(hash)
 
 end
 
-# Write a method that takes a string of words separated by spaces and returns the longest word.  If there is more
-# than one word of that length, it should return the first instance of that word.
-def longest_word(string)
+# Write a method that takes a string of words separated by spaces and returns the most common vowel.  If more than one vowel has that count, return the one that occurs earliest in the alphabet.  For our purposes, count "y" as a vowel.
+# Assume all letters are lower case.
+def most_common_vowel(string)
 
 end
 
@@ -143,18 +142,5 @@ def magic_numbers(count)
 end
 
 def is_magic_number?(number)
-
-end
-
-# Write a method called greatest_val_key(hash) that takes in a hash with any keys but only integers for values, and returns the key with the largest value.
-# Ex: greatest_val_key({ "a" => 5, "b" => 6, "c" => 3 }) => "b"
-# Hint: Can you iterate through Hash#keys?
-def greatest_val_key(hash)
-
-end
-
-# Write a method that takes a string of words separated by spaces and returns the most common vowel.  If more than one vowel has that count, return the one that occurs earliest in the alphabet.  For our purposes, count "y" as a vowel.
-# Assume all letters are lower case.
-def most_common_vowel(string)
 
 end
